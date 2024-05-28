@@ -5,19 +5,26 @@
 }
 img{
     display:block;
-    max-width: 25vw;
+    max-width: 75vw;
 }
 main{
+    margin-top: 1rem;
     display:flex;
      gap: 2rem;
      flex-direction:column;
      align-items: center;
+     
 }
 .buttons-container{
     display:flex;
     gap:1rem;
     flex:1;
+    flex-wrap: wrap;
 }
 button{
+    border-radius: 1rem;
+    background-color: black;
+    color:white;
     padding:1rem;
+    cursor: pointer;
 }
